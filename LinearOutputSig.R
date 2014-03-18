@@ -10,7 +10,7 @@
 #' \item \code{Sig} A vector of character elements representing the sorted significance of coefficient estimates
 #' }
 #' 
-#' @author Dino Hadzic \email{dino.hadzic@wustl.edu}
+#' @author Dino Hadzic \email{dino.hadzic@@wustl.edu}
 #' @aliases LinearOutputSig-class initialize,LinearOutputSig-method getcoef,RegRunSig-method getR2,LinearOutputSig-method getSig,LinearOutputSig-method
 #' @rdname LinearOutputSig
 #' @export
