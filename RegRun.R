@@ -11,9 +11,9 @@
 #'  @author Dino Hadzic \email{dino.hadzic@wustl.edu}
 #'  @examples
 #'  
-#'  myM <- matrix(rnorm(20), ncol=2)
-#'  myY <- c(rnorm(10))
-#'  RegRun(myM, myY)
+#'  exM <- matrix(rnorm(30), ncol=3)
+#'  exY <- c(rnorm(10))
+#'  RegRun(exM, exY)
 #'  @seealso \code{\link{RegRunSig}}
 #'  @rdname RegRun
 #'  @aliases RegRun,ANY-method
