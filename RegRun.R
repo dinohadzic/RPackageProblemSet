@@ -38,7 +38,7 @@ setMethod(f="RegRun",
               }
             }
             colnames(coefs)[-1] <- paste("Reg", 1:ncol(coefs))
-            rownames(coefs) <- paste("Coeff", 1:nrow(coefs))
+            rownames(coefs) <- paste("Coeff", 0:(nrow(coefs)-1))
             return(new("LinearOutput", coef=coefs[,-1], R2=R2s))
           }
 )
